@@ -18,9 +18,11 @@ int cost(int a) {
 }
 
 int choose(pair<int, int> bc, int k, int r, int n) {
+    /*
     for (auto &i:bc) {
 
     }
+    */
 }
 
 int main() {
@@ -50,7 +52,7 @@ int main() {
             r+=bc[index].second;
             index++;
         }
-        choose(bc+index, k, r, n-index);
+        // choose(bc+index, k, r, n-index);
     }
 
     return 0;

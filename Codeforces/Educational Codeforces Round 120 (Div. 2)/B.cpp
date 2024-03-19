@@ -21,7 +21,7 @@ int main() {
         }
         string s;
         cin >> s;
-        liked = count(s.begin(), s.end(), [](char x) {return x != '0';});
+        liked = count_if(s.begin(), s.end(), [](char &x) {return x != '0';});
         int debut = 1, fin = n;
         for (int i = 0; i < n; ++i) {
             if(s[i]-'0') {
