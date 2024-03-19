@@ -13,7 +13,7 @@ void init()
                 sieve[i].push_back(make_pair(i, 0));
         int x=i;
         for (int j = 0; j <= sieve[i].size(); ++j) {
-            xhile(x%sieve[i][j].first)
+            while(x%sieve[i][j].first)
             {
                 x/=sieve[i][j].first;
                 sieve[i][j].second++;

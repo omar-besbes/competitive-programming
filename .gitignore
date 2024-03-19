@@ -1,6 +1,18 @@
-.vscode
-.idea
-build
-Stress Testing
+# Temp files
 input.txt
 output.txt
+test.cpp
+
+# Build directories
+build
+.build
+
+# JetBrains IDEs
+.idea
+
+# VSCode
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
