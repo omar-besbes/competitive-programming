@@ -1,34 +1,37 @@
 #include <bits/stdc++.h>
-#define EPSILON 0.000000001
 using namespace std;
-bool compare(pair<int, double> p1, pair<int, double> p2) {
-    if(p1.first == p2.first)
+
+bool compare(pair<int, double> p1, pair<int, double> p2)
+{
+    if (p1.first == p2.first)
         return p1.second < p2.second;
     return p1.first < p2.first;
 }
-int main() {
+
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    freopen("input.txt.txt", "r", stdin);
-    freopen("output.txt", "w+", stdout);
 
     int N, limit;
     double Max;
     cin >> N;
     pair<int, double> S[N];
-    for(int i=0; i<N; i++)
+    for (int i = 0; i < N; i++)
         cin >> S[i].first >> S[i].second;
-    sort(S, S+N, compare);
+    sort(S, S + N, compare);
 
     for (int i = 1; i < N; ++i)
-        S[i].second += S[i-1].second;
+        S[i].second += S[i - 1].second;
 
     Max = S[0].second;
     limit = S[0].first;
-    for(int i=1; i<N; i++) {
-        double temp = S[i].second / ((double) (i+1));
-        if(temp >= Max) {
+    for (int i = 1; i < N; i++)
+    {
+        double temp = S[i].second / ((double)(i + 1));
+        if (temp >= Max)
+        {
             limit = S[i].first;
             Max = temp;
         }
