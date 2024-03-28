@@ -42,14 +42,15 @@ int main()
 
     // compute edges weights 2*(n-1)
     for (int i = 0; i < n; i++)
-    {
         for (auto &d : p[i])
-        {
-            c_w(i, d.first);
-        }
-    }
+            // root cannot be leaf
+            if (p[i].size() > 1)
+                c_w(i, d.first);
 
-    int res = *min_element(m, m + n);
+    int res = INT_MAX;
+    for (int i = 0; i < N; i++)
+        if (m[i])
+            res = min(res, m[i]);
 
     cout << res << "\n";
 }
