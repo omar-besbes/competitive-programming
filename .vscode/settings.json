@@ -1,4 +1,7 @@
 {
     "cmake.buildDirectory": "${workspaceFolder}/.build",
-    "cmake.preferredGenerators": ["Ninja", "Make"],
+    "cmake.preferredGenerators": [
+        "Ninja",
+        "Make"
+    ],
 }
