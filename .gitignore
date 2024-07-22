@@ -16,3 +16,10 @@ build
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Stress Tester
+/stress-tester/*
+!/stress-tester/brute.cpp
+!/stress-tester/mapper.sh
+!/stress-tester/optimal.cpp
+!/stress-tester/testcase.py
