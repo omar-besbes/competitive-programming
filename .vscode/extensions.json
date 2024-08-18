@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "ms-vscode.cpptools-extension-pack",
-        "aaron-bond.better-comments"
+        "aaron-bond.better-comments",
+        "ms-vscode.cmake-tools"
     ]
 }
