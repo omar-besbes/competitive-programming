@@ -1,7 +1,16 @@
 {
-    "cmake.buildDirectory": "${workspaceFolder}/.build",
-    "cmake.preferredGenerators": [
-        "Ninja",
-        "Make"
-    ],
+    "cmake.options.advanced": {
+        "configurePreset": {
+            "statusBarVisibility": "compact"
+        },
+        "build": {
+            "statusBarVisibility": "icon",
+        },
+        "debug": {
+            "statusBarVisibility": "icon"
+        },
+        "launchTarget": {
+            "statusBarVisibility": "visible"
+        },
+    }
 }
