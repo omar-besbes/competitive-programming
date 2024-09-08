@@ -2,6 +2,7 @@
 input.txt
 output.txt
 test.cpp
+main.cpp
 
 # Build directories
 build
