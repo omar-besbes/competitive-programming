@@ -3,14 +3,14 @@
 using namespace std;
 
 int n, r;
-vector<int> a, seg;
+vector<int> arr, seg;
 
 void init(int index = 1, int l = 0, int r = n - 1)
 {
     // cout << "init " << l << " " << r << "\n";
     if (l == r)
     {
-        seg[index] = a[l];
+        seg[index] = arr[l];
     }
     else
     {
@@ -28,7 +28,7 @@ void update(int key, int index = 1, int l = 0, int r = n - 1)
         return;
     if (l == r)
     {
-        seg[index] = a[key];
+        seg[index] = arr[key];
     }
     else
     {
@@ -73,8 +73,8 @@ int main()
 
     cin >> n;
     seg.resize(4 * n);
-    a.resize(n);
-    for (auto &i : a)
+    arr.resize(n);
+    for (auto &i : arr)
         cin >> i;
 
     init();
@@ -88,7 +88,7 @@ int main()
         {
             int key, value;
             cin >> key >> value;
-            a[key] = value;
+            arr[key] = value;
             update(key);
         }
         else

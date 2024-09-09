@@ -8,14 +8,14 @@ using namespace std;
 #define EPSILON 1e-8
 
 int n;
-vector<int> a;
+vector<int> arr;
 
 double f(double x)
 {
     double curr = 0, maxi = 0;
     for (int i = 0; i < n; i++)
     {
-        curr += a[i] - x;
+        curr += arr[i] - x;
         if (curr < 0)
             curr = 0;
         else
@@ -25,7 +25,7 @@ double f(double x)
     curr = 0;
     for (int i = 0; i < n; i++)
     {
-        curr += x - a[i];
+        curr += x - arr[i];
         if (curr < 0)
             curr = 0;
         else
@@ -38,10 +38,10 @@ double f(double x)
 int main()
 {
     cin >> n;
-    a.assign(n, 0);
+    arr.assign(n, 0);
     for (int i = 0; i < n; i++)
     {
-        cin >> a[i];
+        cin >> arr[i];
     }
 
     double l = -1e5, r = 1e5, m1, m2, f1 = f(l), f2 = f(r);

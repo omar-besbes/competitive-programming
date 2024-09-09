@@ -2,7 +2,7 @@
 using namespace std;
 
 int h, n, k;
-vector<int> a;
+vector<int> arr;
 
 void print(string message, set<int> a)
 {
@@ -17,7 +17,7 @@ set<int> explore(int l = 0, int r = n - 1)
     set<int> ans;
     if (l == r)
     {
-        ans.insert(a[l]);
+        ans.insert(arr[l]);
     }
     else
     {
@@ -46,8 +46,8 @@ int main()
 {
     cin >> h >> k;
     n = 1 << h;
-    a.resize(n);
-    for (auto &i : a)
+    arr.resize(n);
+    for (auto &i : arr)
         cin >> i;
 
     auto candidates = explore();
