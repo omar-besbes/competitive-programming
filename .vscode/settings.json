@@ -1,16 +1,13 @@
 {
     "cmake.options.advanced": {
-        "configurePreset": {
-            "statusBarVisibility": "compact"
-        },
         "build": {
-            "statusBarVisibility": "icon",
+            "statusBarVisibility": "hidden",
         },
         "debug": {
-            "statusBarVisibility": "icon"
+            "statusBarVisibility": "hidden"
         },
-        "launchTarget": {
-            "statusBarVisibility": "visible"
-        },
-    }
+        "launch": {
+            "statusBarVisibility": "hidden"
+        }
+    },
 }
