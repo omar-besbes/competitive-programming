@@ -1,7 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-int n, a, maxi;
+int n, a, sum;
 vector<int> p, s;
 
 void init()
@@ -9,7 +9,7 @@ void init()
     p.resize(n);
     s.resize(n);
     s.assign(n, 1);
-    maxi = 1;
+    sum = 1;
     for (int i = 0; i < n; i++)
     {
         p[i] = i;
@@ -32,7 +32,7 @@ void merge(int a, int b)
         swap(pa, pb);
     p[pb] = pa;
     s[pa] += s[pb];
-    maxi = max(maxi, s[pa]);
+    sum = max(sum, s[pa]);
 }
 
 void print()
@@ -60,6 +60,6 @@ int main()
         int a, b, c;
         cin >> a >> b >> c;
         merge(a - 1, b - 1);
-        cout << maxi << "\n";
+        cout << sum << "\n";
     }
 }

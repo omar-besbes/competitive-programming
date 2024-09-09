@@ -2,7 +2,7 @@
 using namespace std;
 
 int n;
-vector<int> a;
+vector<int> arr;
 
 void merge_sort(vector<int> &tmp)
 {
@@ -47,11 +47,11 @@ void print(string message, vector<int> a)
 int main()
 {
     cin >> n;
-    a.resize(n);
-    for (auto &i : a)
+    arr.resize(n);
+    for (auto &i : arr)
         cin >> i;
 
-    merge_sort(a);
-    for (auto &i : a)
+    merge_sort(arr);
+    for (auto &i : arr)
         cout << i << " ";
 }

@@ -3,13 +3,13 @@
 using namespace std;
 
 int n, q;
-vector<int> seg, a;
+vector<int> seg, arr;
 
 void build(int v = 1, int l = 0, int r = n - 1)
 {
     if (l == r)
     {
-        seg[v] = a[l];
+        seg[v] = arr[l];
     }
     else
     {
@@ -42,8 +42,8 @@ int main()
 
     cin >> n;
     seg.assign(4 * n, 0);
-    a.assign(n, 0);
-    for (auto &item : a)
+    arr.assign(n, 0);
+    for (auto &item : arr)
     {
         cin >> item;
     }
