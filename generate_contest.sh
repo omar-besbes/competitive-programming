@@ -11,7 +11,7 @@ case $PLATFORM in
 
 "Codeforces")
     CONTEST_NAME=$(gum input --placeholder "Input contest name:")
-    CONTEST_PATH="Codeforces/$CONTEST_NAME"
+    CONTEST_PATH="solutions/Codeforces/$CONTEST_NAME"
     TEMPLATE="main.cpp"
 
     OPTIONS=()
