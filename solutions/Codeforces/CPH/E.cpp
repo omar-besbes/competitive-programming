@@ -3,41 +3,39 @@
 using namespace std;
 
 int main() {
-//    ios::sync_with_stdio(false);
-//    cin.tie(nullptr);
-//    cout.tie(nullptr);
-//    freopen("name.in", "r", stdin);
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w+", stdout);
+   //    ios::sync_with_stdio(false);
+   //    cin.tie(nullptr);
+   //    cout.tie(nullptr);
+   //    freopen("name.in", "r", stdin);
+   freopen("input.txt", "r", stdin);
+   freopen("output.txt", "w+", stdout);
 
-    long long x, y, m, op = 0;
-    cin >> x >> y >> m;
-    if(x+y <= 0 && x < m && y < m) {
-        if(x+y || x==0) {
-            cout << -1;
-            return 0;
-        }
-    }
+   long long x, y, m, op = 0;
+   cin >> x >> y >> m;
+   if (x + y <= 0 && x < m && y < m) {
+      if (x + y || x == 0) {
+         cout << -1;
+         return 0;
+      }
+   }
 
-    if(x*y <= 0) {
-        if(x > y)
-            swap(x, y);
-        x *= -1;
-        op += x/y;
-        x %= y;
-        x *= -1;
-    }
+   if (x * y <= 0) {
+      if (x > y) swap(x, y);
+      x *= -1;
+      op += x / y;
+      x %= y;
+      x *= -1;
+   }
 
-    while(x < m && y < m) {
-        if(x > y)
-            swap(x, y);
-        x = x+y;
-        op++;
-    }
+   while (x < m && y < m) {
+      if (x > y) swap(x, y);
+      x = x + y;
+      op++;
+   }
 
-    cout << op;
+   cout << op;
 
-    return 0;
+   return 0;
 }
 
 //#include<bits/stdc++.h>
@@ -51,9 +49,9 @@ int main() {
 //#define INF 1000000000
 //#define PI 3.14159265358979323846
 //
-//using namespace std;
+// using namespace std;
 //
-//int main()
+// int main()
 //{
 //    ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 //	freopen("input.txt", "r", stdin);

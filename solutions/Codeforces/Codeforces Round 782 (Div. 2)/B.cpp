@@ -3,31 +3,32 @@
 using namespace std;
 
 int main() {
-//    ios::sync_with_stdio(false);
-//    cin.tie(nullptr);
-//    cout.tie(nullptr);
-//    freopen("name.in", "r", stdin);
-//    freopen("input.txt", "r", stdin);
-//    freopen("output.txt", "w+", stdout);
+   //    ios::sync_with_stdio(false);
+   //    cin.tie(nullptr);
+   //    cout.tie(nullptr);
+   //    freopen("name.in", "r", stdin);
+   //    freopen("input.txt", "r", stdin);
+   //    freopen("output.txt", "w+", stdout);
 
-    int t;
-    cin >> t;
-    while (t--) {
-        int n, k;
-        cin >> n >> k;
-        string  s;
-        cin >> s;
-        for (int i = 0; i < n; ++i) {
-            s[i] -= '0';
-            if(s[i]) {
-                while (i<n) {
-                    i++;
-                    s[i] = '1' - s[i];
-                    s[i] -= '0';
-                }
-            } else s[i] = 1 - s[i];
-        }
-    }
+   int t;
+   cin >> t;
+   while (t--) {
+      int n, k;
+      cin >> n >> k;
+      string s;
+      cin >> s;
+      for (int i = 0; i < n; ++i) {
+         s[i] -= '0';
+         if (s[i]) {
+            while (i < n) {
+               i++;
+               s[i] = '1' - s[i];
+               s[i] -= '0';
+            }
+         } else
+            s[i] = 1 - s[i];
+      }
+   }
 
-    return 0;
+   return 0;
 }
