@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        platform: [CSES]
+        platform: [CSES, France-IOI]
 
     steps:
       - name: Checkout repository
