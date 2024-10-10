@@ -12,6 +12,7 @@ jobs:
     strategy:
       matrix:
         platform: [CSES, France-IOI]
+      max-parallel: 1
 
     steps:
       - name: Checkout repository
@@ -31,7 +32,13 @@ jobs:
         run: |
           python scripts/${{ matrix.platform }}/generate.py
 
+      - name: Check for changes in the directory
+        id: check_changes
+        run: |
+          git diff --exit-code solutions/${{ matrix.platform }} || echo "changes"
+
       - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'changes'
         run: |
           git config user.name 'GitHub Actions'
           git config user.email 'actions@github.com'
