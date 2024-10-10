@@ -17,6 +17,7 @@ build
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/cp.code-snippets
 
 # Stress Tester
 /stress-tester/*
