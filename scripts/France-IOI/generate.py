@@ -39,17 +39,17 @@ def generate_data_from_folder(path):
                     part_data = []
                     for idx, file in enumerate(sorted(os.listdir(part_or_file_path))):
                         if file.endswith('.cpp') or file.endswith('.c'):
-                            problem_title = file.rsplit('.', 1)[0]
+                            [problem_title, extension] = file.rsplit('.', 1)
                             problem_id = idx + 1
-                            part_data.append({"id": problem_id, "title": problem_title})
+                            part_data.append({"id": problem_id, "title": problem_title, "extension": extension})
                     if part_data:
                         chapter_data["parts"].append({"part": part_or_file, "problems": part_data})
                 else:
                     # Handle problems directly in the chapter
                     if part_or_file.endswith('.cpp') or part_or_file.endswith('.c'):
-                        problem_title = part_or_file.rsplit('.', 1)[0]
+                        [problem_title, extension] = part_or_file.rsplit('.', 1)
                         problem_id = len(chapter_data["problems"]) + 1
-                        chapter_data["problems"].append({"id": problem_id, "title": problem_title})
+                        chapter_data["problems"].append({"id": problem_id, "title": problem_title, "extension": extension})
 
             if chapter_data["parts"] or chapter_data["problems"]:
                 level_data[chapter_dir] = chapter_data
@@ -68,7 +68,6 @@ if __name__ == '__main__':
     # Generate the data from the folder structure
     logging.info('Starting content generation')
     data = generate_data_from_folder(FRANCE_IOI_SOLUTIONS_DIR)
-    print(data)
 
     # Render the README with data
     logging.info('Rendering the README')
