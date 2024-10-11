@@ -85,7 +85,7 @@ int main() {
       //					char x = -s[i][j];
       //					cout << x << " ";
       //				} else cout << (s[i][j] > n * m ?
-      //INT_MAX - s[i][j] : s[i][j]) << " ";
+      // INT_MAX - s[i][j] : s[i][j]) << " ";
       //			}
       //			cout << "\n";
       //		}
