@@ -685,6 +685,21 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
                 </a>
             </td>
         </tr>
+        <tr>
+            <td>
+                2431
+            </td>
+            <td>
+                <a href="Introductory%20Problems/2431%20-%20Digit%20Queries.cpp">
+                    💻 Digit Queries
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/2431" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -1229,6 +1244,21 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
         </tr>
     </thead>
     <tbody> 
+        <tr>
+            <td>
+                1731
+            </td>
+            <td>
+                <a href="String%20Algorithms/1731%20-%20Word%20Combinations.cpp">
+                    💻 Word Combinations
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/1731" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
         <tr>
             <td>
                 1732
