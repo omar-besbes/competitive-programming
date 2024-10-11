@@ -310,6 +310,21 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
         </tr>
         <tr>
             <td>
+                2192
+            </td>
+            <td>
+                <a href="Geometry/2192%20-%20Point%20in%20Polygon.cpp">
+                    💻 Point in Polygon
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/2192" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 2193
             </td>
             <td>
