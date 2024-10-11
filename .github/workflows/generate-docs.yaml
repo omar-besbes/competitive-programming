@@ -35,10 +35,10 @@ jobs:
       - name: Check for changes in the directory
         id: check_changes
         run: |
-          git diff --exit-code solutions/${{ matrix.platform }} || echo "changes"
+          git diff --exit-code solutions/${{ matrix.platform }} || echo "changes=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changes == 'changes'
+        if: steps.check_changes.outputs.changes == 'true'
         run: |
           git config user.name 'GitHub Actions'
           git config user.email 'actions@github.com'
