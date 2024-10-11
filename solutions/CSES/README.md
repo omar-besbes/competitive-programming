@@ -323,6 +323,21 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
                 </a>
             </td>
         </tr>
+        <tr>
+            <td>
+                2195
+            </td>
+            <td>
+                <a href="Geometry/2195%20-%20Convex%20Hull.cpp">
+                    💻 Convex Hull
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/2195" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
     </tbody>
 </table>
 
