@@ -32,6 +32,8 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
  
     - [Débloquage du niveau 4](#débloquage-du-niveau-4)
  
+    - [Exercices d'entraînement du niveau 4](#exercices-d'entraînement-du-niveau-4)
+ 
     - [Graphes](#graphes)
  
     - [Graphes implicites (1)](#graphes-implicites-(1))
@@ -68,21 +70,21 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Bases
 
 
-1. <a href="Niveau%203/Bases/Affichage%20binaire.cpp"> 💻 Affichage binaire </a>
+1. <a href="Niveau%203/Bases/Affichage%20binaire.c"> 💻 Affichage binaire </a>
 
-1. <a href="Niveau%203/Bases/Changement%20de%20base.cpp"> 💻 Changement de base </a>
+1. <a href="Niveau%203/Bases/Changement%20de%20base.c"> 💻 Changement de base </a>
 
-1. <a href="Niveau%203/Bases/Lecture%20binaire.cpp"> 💻 Lecture binaire </a>
+1. <a href="Niveau%203/Bases/Lecture%20binaire.c"> 💻 Lecture binaire </a>
 
-1. <a href="Niveau%203/Bases/Lecture%20dans%20une%20base%20quelconque.cpp"> 💻 Lecture dans une base quelconque </a>
+1. <a href="Niveau%203/Bases/Lecture%20dans%20une%20base%20quelconque.c"> 💻 Lecture dans une base quelconque </a>
 
-1. <a href="Niveau%203/Bases/Moyenne%20hexadécimale.cpp"> 💻 Moyenne hexadécimale </a>
+1. <a href="Niveau%203/Bases/Moyenne%20hexadécimale.c"> 💻 Moyenne hexadécimale </a>
 
-1. <a href="Niveau%203/Bases/Puissance%20de%202.cpp"> 💻 Puissance de 2 </a>
+1. <a href="Niveau%203/Bases/Puissance%20de%202.c"> 💻 Puissance de 2 </a>
 
-1. <a href="Niveau%203/Bases/Table%20de%20multiplication%20binaire.cpp"> 💻 Table de multiplication binaire </a>
+1. <a href="Niveau%203/Bases/Table%20de%20multiplication%20binaire.c"> 💻 Table de multiplication binaire </a>
 
-1. <a href="Niveau%203/Bases/Écriture%20dans%20une%20base%20quelconque.cpp"> 💻 Écriture dans une base quelconque </a>
+1. <a href="Niveau%203/Bases/Écriture%20dans%20une%20base%20quelconque.c"> 💻 Écriture dans une base quelconque </a>
 
 
 
@@ -91,15 +93,15 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Déblocage du niveau 3
 
 
-1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Composition%20musicale.cpp"> 💻 Composition musicale </a>
+1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Composition%20musicale.c"> 💻 Composition musicale </a>
 
-1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Course%20de%20grenouilles.cpp"> 💻 Course de grenouilles </a>
+1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Course%20de%20grenouilles.c"> 💻 Course de grenouilles </a>
 
-1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Emprunts%20de%20livres.cpp"> 💻 Emprunts de livres </a>
+1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Emprunts%20de%20livres.c"> 💻 Emprunts de livres </a>
 
-1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Fléchettes.cpp"> 💻 Fléchettes </a>
+1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Fléchettes.c"> 💻 Fléchettes </a>
 
-1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Lissage%20de%20signal.cpp"> 💻 Lissage de signal </a>
+1. <a href="Niveau%203/Déblocage%20du%20niveau%203/Lissage%20de%20signal.c"> 💻 Lissage de signal </a>
 
 
 
@@ -110,9 +112,9 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 1. <a href="Niveau%203/Efficacité%20temporelle/Collage%20d'affiches.cpp"> 💻 Collage d'affiches </a>
 
-1. <a href="Niveau%203/Efficacité%20temporelle/Les%20bons%20milieux.cpp"> 💻 Les bons milieux </a>
+1. <a href="Niveau%203/Efficacité%20temporelle/Les%20bons%20milieux.c"> 💻 Les bons milieux </a>
 
-1. <a href="Niveau%203/Efficacité%20temporelle/Plus%20long%20palindrome.cpp"> 💻 Plus long palindrome </a>
+1. <a href="Niveau%203/Efficacité%20temporelle/Plus%20long%20palindrome.c"> 💻 Plus long palindrome </a>
 
 1. <a href="Niveau%203/Efficacité%20temporelle/Premier%20absent.cpp"> 💻 Premier absent </a>
 
@@ -125,23 +127,23 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Amis%20d’amis.cpp"> 💻 Amis d’amis </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Carrés%20concentriques.cpp"> 💻 Carrés concentriques </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Carrés%20concentriques.c"> 💻 Carrés concentriques </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Cartes%20perforées.cpp"> 💻 Cartes perforées </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Cartes%20perforées.c"> 💻 Cartes perforées </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Extension%20du%20centre.cpp"> 💻 Extension du centre </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Extension%20du%20centre.c"> 💻 Extension du centre </a>
 
 1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Galerie%20souterraine.cpp"> 💻 Galerie souterraine </a>
 
 1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Labyrinthe%20à%20billes.cpp"> 💻 Labyrinthe à billes </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Nombres%20opposés.cpp"> 💻 Nombres opposés </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Nombres%20opposés.c"> 💻 Nombres opposés </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Rallonges%20audio.cpp"> 💻 Rallonges audio </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Rallonges%20audio.c"> 💻 Rallonges audio </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Tri%20automatique.cpp"> 💻 Tri automatique </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/Tri%20automatique.c"> 💻 Tri automatique </a>
 
-1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/iPhone%20Nano.cpp"> 💻 iPhone Nano </a>
+1. <a href="Niveau%203/Exercices%20d'entraînement%20du%20niveau%203/iPhone%20Nano.c"> 💻 iPhone Nano </a>
 
 
 
@@ -156,13 +158,13 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 1. **Fonctions récursives**
 
 
-    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/0%20+%200%20=%20la%20tête%20à%20Toto.cpp"> 💻 0 + 0 = la tête à Toto </a>
+    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/0%20+%200%20=%20la%20tête%20à%20Toto.c"> 💻 0 + 0 = la tête à Toto </a>
 
-    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/Fractale%20:%20triangle%20de%20Sierpinski.cpp"> 💻 Fractale : triangle de Sierpinski </a>
+    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/Fractale%20:%20triangle%20de%20Sierpinski.c"> 💻 Fractale : triangle de Sierpinski </a>
 
-    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/Nombre%20encadré.cpp"> 💻 Nombre encadré </a>
+    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/Nombre%20encadré.c"> 💻 Nombre encadré </a>
 
-    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/Tours%20de%20Hanoï.cpp"> 💻 Tours de Hanoï </a>
+    1. <a href="Niveau%203/Récursivité/Fonctions%20récursives/Tours%20de%20Hanoï.c"> 💻 Tours de Hanoï </a>
 
 
 
@@ -170,7 +172,7 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 1. **Récursif et itératif : boucles imbriquées en récursif**
 
 
-    1. <a href="Niveau%203/Récursivité/Récursif%20et%20itératif%20:%20boucles%20imbriquées%20en%20récursif/Retournement%20de%20chaîne.cpp"> 💻 Retournement de chaîne </a>
+    1. <a href="Niveau%203/Récursivité/Récursif%20et%20itératif%20:%20boucles%20imbriquées%20en%20récursif/Retournement%20de%20chaîne.c"> 💻 Retournement de chaîne </a>
 
 
 
@@ -178,7 +180,7 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 1. **Récursif et itératif : factorielle, boucle en récursif**
 
 
-    1. <a href="Niveau%203/Récursivité/Récursif%20et%20itératif%20:%20factorielle,%20boucle%20en%20récursif/Entre%20deux.cpp"> 💻 Entre deux </a>
+    1. <a href="Niveau%203/Récursivité/Récursif%20et%20itératif%20:%20factorielle,%20boucle%20en%20récursif/Entre%20deux.c"> 💻 Entre deux </a>
 
 
 
@@ -187,17 +189,17 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Structures de données élémentaires et Balayages
 
 
-1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Carte%20de%20cinéma.cpp"> 💻 Carte de cinéma </a>
+1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Carte%20de%20cinéma.c"> 💻 Carte de cinéma </a>
 
-1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Carte%20des%20cavernes.cpp"> 💻 Carte des cavernes </a>
+1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Carte%20des%20cavernes.c"> 💻 Carte des cavernes </a>
 
-1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Dates%20de%20péremption.cpp"> 💻 Dates de péremption </a>
+1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Dates%20de%20péremption.c"> 💻 Dates de péremption </a>
 
 1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Distributeur%20automatique.cpp"> 💻 Distributeur automatique </a>
 
-1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Hydroélectricité.cpp"> 💻 Hydroélectricité </a>
+1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/Hydroélectricité.c"> 💻 Hydroélectricité </a>
 
-1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/État%20du%20stock.cpp"> 💻 État du stock </a>
+1. <a href="Niveau%203/Structures%20de%20données%20élémentaires%20et%20Balayages/État%20du%20stock.c"> 💻 État du stock </a>
 
 
 
@@ -206,23 +208,23 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Tris simples
 
 
-1. <a href="Niveau%203/Tris%20simples/Course%20automobile.cpp"> 💻 Course automobile </a>
+1. <a href="Niveau%203/Tris%20simples/Course%20automobile.c"> 💻 Course automobile </a>
 
 1. <a href="Niveau%203/Tris%20simples/Densité%20du%20plastique.cpp"> 💻 Densité du plastique </a>
 
-1. <a href="Niveau%203/Tris%20simples/Densité%20la%20plus%20proche.cpp"> 💻 Densité la plus proche </a>
+1. <a href="Niveau%203/Tris%20simples/Densité%20la%20plus%20proche.c"> 💻 Densité la plus proche </a>
 
-1. <a href="Niveau%203/Tris%20simples/Déchets%20polluants.cpp"> 💻 Déchets polluants </a>
+1. <a href="Niveau%203/Tris%20simples/Déchets%20polluants.c"> 💻 Déchets polluants </a>
 
-1. <a href="Niveau%203/Tris%20simples/Identifier%20les%20bacs.cpp"> 💻 Identifier les bacs </a>
+1. <a href="Niveau%203/Tris%20simples/Identifier%20les%20bacs.c"> 💻 Identifier les bacs </a>
 
-1. <a href="Niveau%203/Tris%20simples/Matières%20recyclables.cpp"> 💻 Matières recyclables </a>
+1. <a href="Niveau%203/Tris%20simples/Matières%20recyclables.c"> 💻 Matières recyclables </a>
 
-1. <a href="Niveau%203/Tris%20simples/Préparation%20du%20stock.cpp"> 💻 Préparation du stock </a>
+1. <a href="Niveau%203/Tris%20simples/Préparation%20du%20stock.c"> 💻 Préparation du stock </a>
 
-1. <a href="Niveau%203/Tris%20simples/Tri%20des%20données%20(bibliothèque).cpp"> 💻 Tri des données (bibliothèque) </a>
+1. <a href="Niveau%203/Tris%20simples/Tri%20des%20données%20(bibliothèque).c"> 💻 Tri des données (bibliothèque) </a>
 
-1. <a href="Niveau%203/Tris%20simples/Tri%20des%20données.cpp"> 💻 Tri des données </a>
+1. <a href="Niveau%203/Tris%20simples/Tri%20des%20données.c"> 💻 Tri des données </a>
 
 
 
@@ -236,27 +238,27 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Algorithmes semi-numériques (1)
 
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Addition%20de%20grands%20nombres.cpp"> 💻 Addition de grands nombres </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Addition%20de%20grands%20nombres.c"> 💻 Addition de grands nombres </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Collage.cpp"> 💻 Collage </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Collage.c"> 💻 Collage </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Découpage.cpp"> 💻 Découpage </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Découpage.c"> 💻 Découpage </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Multiplications%20multiples.cpp"> 💻 Multiplications multiples </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Multiplications%20multiples.c"> 💻 Multiplications multiples </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Nombre%20de%20paquets.cpp"> 💻 Nombre de paquets </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Nombre%20de%20paquets.c"> 💻 Nombre de paquets </a>
 
 1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Nombres%20quasi-parfaits.cpp"> 💻 Nombres quasi-parfaits </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Pioche%20avec%20remise.cpp"> 💻 Pioche avec remise </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Pioche%20avec%20remise.c"> 💻 Pioche avec remise </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Pioche%20de%20toutes%20les%20cartes.cpp"> 💻 Pioche de toutes les cartes </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Pioche%20de%20toutes%20les%20cartes.c"> 💻 Pioche de toutes les cartes </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Pioche%20sans%20remise.cpp"> 💻 Pioche sans remise </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Pioche%20sans%20remise.c"> 💻 Pioche sans remise </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Réussite.cpp"> 💻 Réussite </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Réussite.c"> 💻 Réussite </a>
 
-1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Soustraction%20de%20grands%20nombres.cpp"> 💻 Soustraction de grands nombres </a>
+1. <a href="Niveau%204/Algorithmes%20semi-numériques%20(1)/Soustraction%20de%20grands%20nombres.c"> 💻 Soustraction de grands nombres </a>
 
 
 
@@ -265,17 +267,17 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Arbres
 
 
-1. <a href="Niveau%204/Arbres/Anti%20virus.cpp"> 💻 Anti virus </a>
+1. <a href="Niveau%204/Arbres/Anti%20virus.c"> 💻 Anti virus </a>
 
-1. <a href="Niveau%204/Arbres/Carton%20commun.cpp"> 💻 Carton commun </a>
+1. <a href="Niveau%204/Arbres/Carton%20commun.c"> 💻 Carton commun </a>
 
 1. <a href="Niveau%204/Arbres/Fibre%20optique%20-%20brute%20force.cpp"> 💻 Fibre optique - brute force </a>
 
 1. <a href="Niveau%204/Arbres/Fibre%20optique.cpp"> 💻 Fibre optique </a>
 
-1. <a href="Niveau%204/Arbres/Longueur%20des%20descriptions.cpp"> 💻 Longueur des descriptions </a>
+1. <a href="Niveau%204/Arbres/Longueur%20des%20descriptions.c"> 💻 Longueur des descriptions </a>
 
-1. <a href="Niveau%204/Arbres/Pile%20de%20cartons.cpp"> 💻 Pile de cartons </a>
+1. <a href="Niveau%204/Arbres/Pile%20de%20cartons.c"> 💻 Pile de cartons </a>
 
 1. <a href="Niveau%204/Arbres/Retrouver%20un%20produit.cpp"> 💻 Retrouver un produit </a>
 
@@ -288,15 +290,15 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Pistes%20d'atterrissage.cpp"> 💻 Pistes d'atterrissage </a>
 
-1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Repérage%20des%20lieux.cpp"> 💻 Repérage des lieux </a>
+1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Repérage%20des%20lieux.c"> 💻 Repérage des lieux </a>
 
-1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Superficie%20du%20terrain.cpp"> 💻 Superficie du terrain </a>
+1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Superficie%20du%20terrain.c"> 💻 Superficie du terrain </a>
 
-1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Surface%20de%20parking.cpp"> 💻 Surface de parking </a>
+1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Surface%20de%20parking.c"> 💻 Surface de parking </a>
 
-1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Tour%20de%20contrôle.cpp"> 💻 Tour de contrôle </a>
+1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Tour%20de%20contrôle.c"> 💻 Tour de contrôle </a>
 
-1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Voie%20ferrée.cpp"> 💻 Voie ferrée </a>
+1. <a href="Niveau%204/Calculs%20géométriques%20(1)/Voie%20ferrée.c"> 💻 Voie ferrée </a>
 
 
 
@@ -305,9 +307,26 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Débloquage du niveau 4
 
 
-1. <a href="Niveau%204/Débloquage%20du%20niveau%204/Baguenaudier.cpp"> 💻 Baguenaudier </a>
+1. <a href="Niveau%204/Débloquage%20du%20niveau%204/Baguenaudier.c"> 💻 Baguenaudier </a>
 
-1. <a href="Niveau%204/Débloquage%20du%20niveau%204/Boîtes%20factorielles.cpp"> 💻 Boîtes factorielles </a>
+1. <a href="Niveau%204/Débloquage%20du%20niveau%204/Boîtes%20factorielles.c"> 💻 Boîtes factorielles </a>
+
+
+
+
+
+### Exercices d'entraînement du niveau 4
+
+
+1. <a href="Niveau%204/Exercices%20d'entraînement%20du%20niveau%204/Carton%20trop%20plein.cpp"> 💻 Carton trop plein </a>
+
+1. <a href="Niveau%204/Exercices%20d'entraînement%20du%20niveau%204/Guides%20touristiques.cpp"> 💻 Guides touristiques </a>
+
+1. <a href="Niveau%204/Exercices%20d'entraînement%20du%20niveau%204/Multiplications%20multiples.c"> 💻 Multiplications multiples </a>
+
+1. <a href="Niveau%204/Exercices%20d'entraînement%20du%20niveau%204/Musique%20d'ambiance.cpp"> 💻 Musique d'ambiance </a>
+
+1. <a href="Niveau%204/Exercices%20d'entraînement%20du%20niveau%204/Nombre%20d'arbustes%20à%20planter.c"> 💻 Nombre d'arbustes à planter </a>
 
 
 
@@ -326,13 +345,13 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 1. <a href="Niveau%204/Graphes/Colorier%20des%20zones%20avec%20un%20maximum%20de%20couleurs.cpp"> 💻 Colorier des zones avec un maximum de couleurs </a>
 
-1. <a href="Niveau%204/Graphes/Compter%20les%20chemins%20vers%20la%20sortie.cpp"> 💻 Compter les chemins vers la sortie </a>
+1. <a href="Niveau%204/Graphes/Compter%20les%20chemins%20vers%20la%20sortie.c"> 💻 Compter les chemins vers la sortie </a>
 
 1. <a href="Niveau%204/Graphes/Panneaux%20d'encouragements.cpp"> 💻 Panneaux d'encouragements </a>
 
 1. <a href="Niveau%204/Graphes/Tourner%20en%20rond.cpp"> 💻 Tourner en rond </a>
 
-1. <a href="Niveau%204/Graphes/Tout%20le%20labyrinthe%20est-il%20accessible%20?.cpp"> 💻 Tout le labyrinthe est-il accessible ? </a>
+1. <a href="Niveau%204/Graphes/Tout%20le%20labyrinthe%20est-il%20accessible%20?.c"> 💻 Tout le labyrinthe est-il accessible ? </a>
 
 
 
@@ -341,13 +360,13 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Graphes implicites (1)
 
 
-1. <a href="Niveau%204/Graphes%20implicites%20(1)/Arbres%20malades.cpp"> 💻 Arbres malades </a>
+1. <a href="Niveau%204/Graphes%20implicites%20(1)/Arbres%20malades.c"> 💻 Arbres malades </a>
 
 1. <a href="Niveau%204/Graphes%20implicites%20(1)/Grille%20de%20couleurs.cpp"> 💻 Grille de couleurs </a>
 
 1. <a href="Niveau%204/Graphes%20implicites%20(1)/Plus%20grand%20rayon%20laser.cpp"> 💻 Plus grand rayon laser </a>
 
-1. <a href="Niveau%204/Graphes%20implicites%20(1)/Stage%20dans%20les%20Alpes.cpp"> 💻 Stage dans les Alpes </a>
+1. <a href="Niveau%204/Graphes%20implicites%20(1)/Stage%20dans%20les%20Alpes.c"> 💻 Stage dans les Alpes </a>
 
 1. <a href="Niveau%204/Graphes%20implicites%20(1)/Séquences%20d'opérations.cpp"> 💻 Séquences d'opérations </a>
 
@@ -364,11 +383,11 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 1. **Analyse de documents**
 
 
-    1. <a href="Niveau%204/Récursivité%20avancée/Analyse%20de%20documents/Expressions%20parenthésées,%20crochetées….cpp"> 💻 Expressions parenthésées, crochetées… </a>
+    1. <a href="Niveau%204/Récursivité%20avancée/Analyse%20de%20documents/Expressions%20parenthésées,%20crochetées….c"> 💻 Expressions parenthésées, crochetées… </a>
 
-    1. <a href="Niveau%204/Récursivité%20avancée/Analyse%20de%20documents/Indenter%20son%20code.cpp"> 💻 Indenter son code </a>
+    1. <a href="Niveau%204/Récursivité%20avancée/Analyse%20de%20documents/Indenter%20son%20code.c"> 💻 Indenter son code </a>
 
-    1. <a href="Niveau%204/Récursivité%20avancée/Analyse%20de%20documents/Évaluer%20une%20expression%20parenthésée.cpp"> 💻 Évaluer une expression parenthésée </a>
+    1. <a href="Niveau%204/Récursivité%20avancée/Analyse%20de%20documents/Évaluer%20une%20expression%20parenthésée.c"> 💻 Évaluer une expression parenthésée </a>
 
 
 
@@ -378,9 +397,9 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
     1. <a href="Niveau%204/Récursivité%20avancée/Énumérations/Changement%20de%20nom.cpp"> 💻 Changement de nom </a>
 
-    1. <a href="Niveau%204/Récursivité%20avancée/Énumérations/Choix%20des%20cours.cpp"> 💻 Choix des cours </a>
+    1. <a href="Niveau%204/Récursivité%20avancée/Énumérations/Choix%20des%20cours.c"> 💻 Choix des cours </a>
 
-    1. <a href="Niveau%204/Récursivité%20avancée/Énumérations/Moins%20de%20noms.cpp"> 💻 Moins de noms </a>
+    1. <a href="Niveau%204/Récursivité%20avancée/Énumérations/Moins%20de%20noms.c"> 💻 Moins de noms </a>
 
 
 
