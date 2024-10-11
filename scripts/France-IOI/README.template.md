@@ -17,13 +17,22 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 ## {{ level }}
 
-{% for chapter, problems in chapters.items() %}
+{% for chapter, content in chapters.items() %}
 
 ### {{ chapter }}
 
-{% for problem in problems %}
+{% for problem in content.problems %}
 1. <a href="{{ level | replace(' ', '%20') }}/{{ chapter | replace(' ', '%20') }}/{{ problem.title | replace(' ', '%20') }}.cpp"> 💻 {{ problem.title }} </a>
 {% endfor %}
 
+{% for part in content.parts %}
+
+1. **{{ part.part }}**
+
+{% for subproblem in part.problems %}
+    1. <a href="{{ level | replace(' ', '%20') }}/{{ chapter | replace(' ', '%20') }}/{{ part.part | replace(' ', '%20') }}/{{ subproblem.title | replace(' ', '%20') }}.cpp"> 💻 {{ subproblem.title }} </a>
+{% endfor %}
+
+{% endfor %}
 {% endfor %}
 {% endfor %}
