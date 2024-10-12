@@ -6,7 +6,7 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
 
 {% for category, problems in categories.items() %}
 
-- [{{ category }}](#{{ category | lower | replace(' ', '-') }})
+- [{{ category }}](#{{ category | escape_internal_link }})
   {% endfor %}
 
 ---
@@ -29,7 +29,7 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
                 {{ problem.id }}
             </td>
             <td>
-                <a href="{{ category | replace(' ', '%20') }}/{{ problem.id }}%20-%20{{ problem.title | replace(' ', '%20') }}.cpp">
+                <a href="{{ category | escape_external_link }}/{{ problem.id }}%20-%20{{ problem.title | escape_external_link }}.cpp">
                     💻 {{ problem.title }}
                 </a>
             </td>

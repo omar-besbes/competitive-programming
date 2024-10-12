@@ -5,9 +5,9 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ## Table of Contents
 
 {% for level, chapters in levels.items() %}
-- [{{ level }}](#{{ level | lower | replace(' ', '-') }})
+- [{{ level }}](#{{ level | escape_internal_link }})
 {% for chapter, problems in chapters.items() %} 
-    - [{{ chapter }}](#{{ chapter | lower | replace(' ', '-') }})
+    - [{{ chapter }}](#{{ chapter | escape_internal_link }})
 {% endfor %}
 {% endfor %}
 
@@ -22,7 +22,7 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### {{ chapter }}
 
 {% for problem in content.problems %}
-1. <a href="{{ level | replace(' ', '%20') }}/{{ chapter | replace(' ', '%20') }}/{{ problem.title | replace(' ', '%20') }}.{{ problem.extension }}"> 💻 {{ problem.title }} </a>
+1. <a href="{{ level | escape_external_link }}/{{ chapter | escape_external_link }}/{{ problem.title | escape_external_link }}.{{ problem.extension }}"> 💻 {{ problem.title }} </a>
 {% endfor %}
 
 {% for part in content.parts %}
@@ -30,7 +30,7 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 1. **{{ part.part }}**
 
 {% for subproblem in part.problems %}
-    1. <a href="{{ level | replace(' ', '%20') }}/{{ chapter | replace(' ', '%20') }}/{{ part.part | replace(' ', '%20') }}/{{ subproblem.title | replace(' ', '%20') }}.{{ subproblem.extension }}"> 💻 {{ subproblem.title }} </a>
+    1. <a href="{{ level | escape_external_link }}/{{ chapter | escape_external_link }}/{{ part.part | escape_external_link }}/{{ subproblem.title | escape_external_link }}.{{ subproblem.extension }}"> 💻 {{ subproblem.title }} </a>
 {% endfor %}
 
 {% endfor %}
