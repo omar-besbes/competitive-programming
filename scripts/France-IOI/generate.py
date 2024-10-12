@@ -1,12 +1,15 @@
-import os
 import logging
+import os
+import re
+import urllib.parse
 
-from jinja2 import Template
+from jinja2 import Environment, FileSystemLoader
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 FRANCE_IOI_SOLUTIONS_DIR = 'solutions/France-IOI'
-TEMPLATE_FILE = 'scripts/France-IOI/README.template.md'
+TEMPLATE_FILE = 'README.template.md'
+TEMPLATE_DIR = 'scripts/France-IOI'
 
 def generate_data_from_folder(path):
     data = {}
@@ -59,11 +62,29 @@ def generate_data_from_folder(path):
 
     return data
 
+def escape_internal_link(text):
+    # Trim leading/trailing spaces
+    text = text.strip()
+    # Convert to lowercase
+    text = text.lower()
+    # Remove characters that are not word characters, hyphens, or spaces
+    text = re.sub(r'[^\w\- ]+', '', text)
+    # Replace spaces with hyphens
+    text = re.sub(r'\s', '-', text.strip())
+    # Remove trailing hyphens
+    text = re.sub(r'\-+$', '', text)
+    return text
+
+def escape_external_link(text):
+    return urllib.parse.quote(text)
+
 if __name__ == '__main__':
     # Load the template
     logging.info('Loading the template')
-    with open(TEMPLATE_FILE, 'r') as file:
-        template = Template(file.read())
+    env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
+    env.filters['escape_internal_link'] = escape_internal_link
+    env.filters['escape_external_link'] = escape_external_link
+    template = env.get_template(TEMPLATE_FILE)
 
     # Generate the data from the folder structure
     logging.info('Starting content generation')
