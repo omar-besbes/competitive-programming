@@ -1,3 +1,4 @@
 [submodule "cheatsheet"]
 	path = cheatsheet
 	url = git@github.com:omar-besbes/icpc-cheatsheet.git
+	branch = main
