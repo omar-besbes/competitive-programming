@@ -524,7 +524,17 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 ### Tris efficaces
 
 
+1. <a href="Niveau%205/Tris%20efficaces/Tri%20base%20%28variante%29.cpp"> 💻 Tri base (variante) </a>
+
+1. <a href="Niveau%205/Tris%20efficaces/Tri%20base.cpp"> 💻 Tri base </a>
+
 1. <a href="Niveau%205/Tris%20efficaces/Tri%20par%20tas%20%28biblioth%C3%A8que%29.cpp"> 💻 Tri par tas (bibliothèque) </a>
+
+1. <a href="Niveau%205/Tris%20efficaces/Tri%20par%20tas.cpp"> 💻 Tri par tas </a>
+
+1. <a href="Niveau%205/Tris%20efficaces/Tri%20postal.cpp"> 💻 Tri postal </a>
+
+1. <a href="Niveau%205/Tris%20efficaces/Tri%20rapide.cpp"> 💻 Tri rapide </a>
 
 
 
