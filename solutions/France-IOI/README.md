@@ -53,6 +53,8 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
  
     - [Diviser pour régner](#diviser-pour-régner)
  
+    - [Plus courts chemins](#plus-courts-chemins)
+ 
     - [Tris efficaces](#tris-efficaces)
  
     - [Union-Find](#union-find)
@@ -516,6 +518,31 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 1. <a href="Niveau%205/Diviser%20pour%20r%C3%A9gner/Championnat%20de%20ping-pong.cpp"> 💻 Championnat de ping-pong </a>
 
 1. <a href="Niveau%205/Diviser%20pour%20r%C3%A9gner/Tri%20fusion.cpp"> 💻 Tri fusion </a>
+
+
+
+
+
+### Plus courts chemins
+
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Agents%20de%20s%C3%A9curit%C3%A9.cpp"> 💻 Agents de sécurité </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Br%C3%BBler%20de%20la%20poudre%20II.cpp"> 💻 Brûler de la poudre II </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Br%C3%BBler%20de%20la%20poudre%20III.cpp"> 💻 Brûler de la poudre III </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Br%C3%BBler%20de%20la%20poudre.cpp"> 💻 Brûler de la poudre </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Course%20d%27obstacles.cpp"> 💻 Course d'obstacles </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Course%20d%27orientation.cpp"> 💻 Course d'orientation </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Parcours%20le%20plus%20court.cpp"> 💻 Parcours le plus court </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Parcours%20%C3%A0%20points.cpp"> 💻 Parcours à points </a>
+
+1. <a href="Niveau%205/Plus%20courts%20chemins/Travaux%20aux%20intersections.cpp"> 💻 Travaux aux intersections </a>
 
 
 
