@@ -25,3 +25,6 @@ build
 !/stress-tester/mapper.sh
 !/stress-tester/optimal.cpp
 !/stress-tester/testcase.py
+
+# Python
+**/venv
