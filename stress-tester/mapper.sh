@@ -7,24 +7,22 @@ n=$1
 
 # --------------------- 3 ------------------------------- #
 # running loop for n times (N files)
-for (( i=1; i<=n; ++i ))
-do
+for ((i = 1; i <= n; ++i)); do
     python testcase.py # generate and map testcases to testcase.txt
-    
+
     # generate and map respective outputs
-    ./brute_executable < testcase.txt > brute_out.txt
-    ./optimal_executable < testcase.txt > optimal_out.txt
-    
+    ./brute_executable <testcase.txt >brute_out.txt
+    ./optimal_executable <testcase.txt >optimal_out.txt
+
     # Bash Magic 🤩 : If the difference command produces any output
-    if [[ $(diff brute_out.txt optimal_out.txt) ]]
-    then
+    if [[ $(diff brute_out.txt optimal_out.txt) ]]; then
         # 🤩 map the output of diff command to difference_file
-        echo "$(diff -Z brute_out.txt optimal_out.txt)" > difference_file.txt
-    
+        echo "$(diff -Z brute_out.txt optimal_out.txt)" >difference_file.txt
+
         echo "Difference reported in file difference_file.txt"
         echo "--------------------------------------------------------"
         echo "You Can find the testcase where your optimal solution failed in testcase.txt and the respective outputs in brute_out.txt and optimal_out.txt"
-        
+
         # 🤐 Once the difference is found and we've reported it then no need to generate extra testcases we can break right here
         break
     else
