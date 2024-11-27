@@ -2,8 +2,8 @@
   "image": "mcr.microsoft.com/devcontainers/cpp:debian",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
-            "version": "3.12.1",
-            "additionalVersions": "3.11.9"
+      "version": "3.12.1",
+      "additionalVersions": "3.11.9"
     },
     "ghcr.io/devcontainers-contrib/features/ninja-asdf:2": {}
   }
