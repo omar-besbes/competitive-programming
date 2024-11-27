@@ -1,24 +1,24 @@
 {
-    "version": 6,
-    "configurePresets": [
-        {
-            "name": "default",
-            "displayName": "Default mode config",
-            "description": "Default mode configuration using Ninja generator",
-            "generator": "Ninja",
-            "binaryDir": "${sourceDir}/.build/${presetName}",
-            "cacheVariables": {
-                "CMAKE_BUILD_TYPE": "Debug"
-            }
-        }
-    ],
-    "buildPresets": [
-        {
-            "name": "default",
-            "displayName": "Default mode Build",
-            "description": "Default mode build using Ninja generator",
-            "configurePreset": "default",
-            "configuration": "Debug"
-        }
-    ]
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Default mode config",
+      "description": "Default mode configuration using Ninja generator",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/.build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "default",
+      "displayName": "Default mode Build",
+      "description": "Default mode build using Ninja generator",
+      "configurePreset": "default",
+      "configuration": "Debug"
+    }
+  ]
 }

@@ -1,46 +1,51 @@
 {
-    "cmake.options.advanced": {
-        "build": {
-            "statusBarVisibility": "hidden",
-        },
-        "debug": {
-            "statusBarVisibility": "hidden"
-        },
-        "launch": {
-            "statusBarVisibility": "hidden"
-        }
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "hidden"
     },
-    "files.associations": {
-        "valarray": "cpp",
-        "bitset": "cpp",
-        "complex": "cpp",
-        "limits": "cpp",
-        "memory": "cpp",
-        "functional": "cpp",
-        "iostream": "cpp",
-        "numbers": "cpp",
-        "tuple": "cpp",
-        "*.tcc": "cpp",
-        "deque": "cpp",
-        "list": "cpp",
-        "string": "cpp",
-        "unordered_map": "cpp",
-        "unordered_set": "cpp",
-        "vector": "cpp",
-        "numeric": "cpp",
-        "array": "cpp",
-        "forward_list": "cpp",
-        "string_view": "cpp",
-        "initializer_list": "cpp",
-        "ranges": "cpp",
-        "span": "cpp",
-        "stacktrace": "cpp",
-        "regex": "cpp",
-        "compare": "cpp",
-        "cmath": "cpp",
-        "iomanip": "cpp",
-        "iosfwd": "cpp",
-        "ostream": "cpp",
-        "istream": "cpp"
+    "debug": {
+      "statusBarVisibility": "hidden"
     },
+    "launch": {
+      "statusBarVisibility": "hidden"
+    }
+  },
+  "files.associations": {
+    "valarray": "cpp",
+    "bitset": "cpp",
+    "complex": "cpp",
+    "limits": "cpp",
+    "memory": "cpp",
+    "functional": "cpp",
+    "iostream": "cpp",
+    "numbers": "cpp",
+    "tuple": "cpp",
+    "*.tcc": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "numeric": "cpp",
+    "array": "cpp",
+    "forward_list": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stacktrace": "cpp",
+    "regex": "cpp",
+    "compare": "cpp",
+    "cmath": "cpp",
+    "iomanip": "cpp",
+    "iosfwd": "cpp",
+    "ostream": "cpp",
+    "istream": "cpp",
+    "system_error": "cpp",
+    "climits": "cpp",
+    "random": "cpp"
+  },
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off"
 }
