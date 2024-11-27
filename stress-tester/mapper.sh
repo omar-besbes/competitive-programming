@@ -1,6 +1,7 @@
 # 1. creating the executables
 g++ brute.cpp -o brute_executable
 g++ optimal.cpp -o optimal_executable
+g++ testcase.cpp -o testcase
 
 # 2. getting the number of times to run the script from command line args
 n=$1
@@ -8,7 +9,7 @@ n=$1
 # --------------------- 3 ------------------------------- #
 # running loop for n times (N files)
 for ((i = 1; i <= n; ++i)); do
-    python testcase.py # generate and map testcases to testcase.txt
+    ./testcase # generate and map testcases to testcase.txt
 
     # generate and map respective outputs
     ./brute_executable <testcase.txt >brute_out.txt
