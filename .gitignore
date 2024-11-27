@@ -19,12 +19,5 @@ build
 !.vscode/extensions.json
 !.vscode/cp.code-snippets
 
-# Stress Tester
-/stress-tester/*
-!/stress-tester/brute.cpp
-!/stress-tester/mapper.sh
-!/stress-tester/optimal.cpp
-!/stress-tester/testcase.py
-
 # Python
 **/venv
