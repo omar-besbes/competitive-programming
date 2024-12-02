@@ -45,6 +45,8 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 - [Niveau 5](#niveau-5)
  
+    - [Algorithmes Gloutons](#algorithmes-gloutons)
+ 
     - [Algorithmes dynamiques](#algorithmes-dynamiques)
  
     - [Algorithmes semi-numériques (2)](#algorithmes-semi-numériques-2)
@@ -442,6 +444,19 @@ Accepted solutions of [France-IOI problemset](https://www.france-ioi.org/algo/ch
 
 
 ## Niveau 5
+
+
+
+### Algorithmes Gloutons
+
+
+1. <a href="Niveau%205/Algorithmes%20Gloutons/Cam%C3%A9ras%20de%20surveillance.cpp"> 💻 Caméras de surveillance </a>
+
+1. <a href="Niveau%205/Algorithmes%20Gloutons/Cha%C3%AEne%20de%20production.cpp"> 💻 Chaîne de production </a>
+
+1. <a href="Niveau%205/Algorithmes%20Gloutons/F%C3%AAte%20du%20cin%C3%A9ma.cpp"> 💻 Fête du cinéma </a>
+
+
 
 
 
