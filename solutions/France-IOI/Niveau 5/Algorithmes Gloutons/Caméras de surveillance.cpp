@@ -3,7 +3,7 @@ using namespace std;
 
 template <class U>
 void merge(set<U> &a, set<U> &b) {
-   for(auto &i: b) a.insert(i);
+   for (auto &i : b) a.insert(i);
    b.clear();
 }
 

@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#pragma GCC optimization ("O2")
+#pragma GCC optimization("O2")
 using namespace std;
 typedef long long ll;
 const ll mod = 1e9 + 7;

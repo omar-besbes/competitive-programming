@@ -38,64 +38,64 @@ int main() {
    return 0;
 }
 
-//#include<bits/stdc++.h>
-//#pragma GCC target ("avx2")
-//#pragma GCC optimization ("O3")
-//#pragma GCC optimization ("unroll-loops")
-//#define eps 1e-9
-//#define MOD1 998244353
-//#define MOD2 1000000007
-//#define INV_2 499122177
-//#define INF 1000000000
-//#define PI 3.14159265358979323846
+// #include<bits/stdc++.h>
+// #pragma GCC target ("avx2")
+// #pragma GCC optimization ("O3")
+// #pragma GCC optimization ("unroll-loops")
+// #define eps 1e-9
+// #define MOD1 998244353
+// #define MOD2 1000000007
+// #define INV_2 499122177
+// #define INF 1000000000
+// #define PI 3.14159265358979323846
 //
-// using namespace std;
+//  using namespace std;
 //
-// int main()
+//  int main()
 //{
-//    ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+//     ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 //	freopen("input.txt", "r", stdin);
 //	freopen("output.txt", "w", stdout);
-//    long long a, b, m, nb=0;
-//    cin >> a >> b >> m;
-//    if(a > b)
-//        swap(a, b);
-//    if((a >= m )||(b >= m))
-//    {
-//        cout << "0\n";
-//        return 0;
-//    }
-//    if(a <= 0 && b <= 0 && m >= b)
-//    {
-//        cout << "-1\n";
-//        return 0;
-//    }
-//    if(a== 0 && b==0)
-//    {
-//        cout << "-1\n";
-//        return 0;
-//    }
-//    if(a <= 0 && b >= 0)
-//    {
-//        a*=(-1LL);
-//        nb+=(a/b);
-//        a%=b;
-//        a*=(-1LL);
-//        //cout << a << '\n';
-//    }
-//    long long cu=0;
-//    while(a < m && b < m)
-//    {
-//        if(a < b)
-//            a+=b;
-//        else
-//            b+=a;
-//        nb++;
-//        cu++;
-//    }
-//    //if(cu ==  100000000)
-//    //	nb=-1;
-//    cout << nb << '\n';
-//}
+//     long long a, b, m, nb=0;
+//     cin >> a >> b >> m;
+//     if(a > b)
+//         swap(a, b);
+//     if((a >= m )||(b >= m))
+//     {
+//         cout << "0\n";
+//         return 0;
+//     }
+//     if(a <= 0 && b <= 0 && m >= b)
+//     {
+//         cout << "-1\n";
+//         return 0;
+//     }
+//     if(a== 0 && b==0)
+//     {
+//         cout << "-1\n";
+//         return 0;
+//     }
+//     if(a <= 0 && b >= 0)
+//     {
+//         a*=(-1LL);
+//         nb+=(a/b);
+//         a%=b;
+//         a*=(-1LL);
+//         //cout << a << '\n';
+//     }
+//     long long cu=0;
+//     while(a < m && b < m)
+//     {
+//         if(a < b)
+//             a+=b;
+//         else
+//             b+=a;
+//         nb++;
+//         cu++;
+//     }
+//     //if(cu ==  100000000)
+//     //	nb=-1;
+//     cout << nb << '\n';
+// }
 //// size
 //// 07-02-46

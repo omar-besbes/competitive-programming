@@ -37,6 +37,7 @@ To run the solutions in this repository, you'll need the following tools:
 - A `C/C++` compiler like `gcc`.
 - A `C/C++` debugger such as `gdb` (optional).
 - `CMake` and `ninja` for managing binaries.
+- `clang-format` for formatting (optional).
 
 > [!Note]
 >

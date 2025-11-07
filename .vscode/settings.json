@@ -10,6 +10,9 @@
       "statusBarVisibility": "hidden"
     }
   },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "files.associations": {
     "valarray": "cpp",
     "bitset": "cpp",
