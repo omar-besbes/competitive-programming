@@ -2,6 +2,6 @@
   "recommendations": [
     "ms-vscode.cpptools-extension-pack",
     "aaron-bond.better-comments",
-    "ms-vscode.cmake-tools"
+    "github.vscode-github-actions"
   ]
 }
