@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION})
+cmake_minimum_required(VERSION 3.31)
 
 # Set the project name to the repository name
-project(${CMAKE_CURRENT_SOURCE_DIR})
+project(competitive-programming)
 # Set the C++ standard version
 set(CMAKE_CXX_STANDARD 17)
 # Enforce that the compiler must support this standard
@@ -13,7 +13,13 @@ set(CMAKE_C_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 
 # Collect all .cpp files in the project
-file(GLOB_RECURSE ALL_CPP_FILES_IN_REPO "*.cpp")
+file(GLOB_RECURSE ALL_CPP_FILES_IN_REPO
+    CONFIGURE_DEPENDS
+    "${CMAKE_SOURCE_DIR}/solutions/*.cpp"
+    "${CMAKE_SOURCE_DIR}/stress-tester/*.cpp"
+    "${CMAKE_SOURCE_DIR}/main.cpp"
+)
+
 # Iterate over each .cpp file and create an executable for it
 foreach (FILE ${ALL_CPP_FILES_IN_REPO})
     # Get the base directory name that contains the file

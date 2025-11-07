@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ii pair<int, int>
+#define pii pair<int, int>
 
 int main() {
    int n;
