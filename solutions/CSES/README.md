@@ -27,6 +27,9 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
 - [Range Queries](#range-queries)
   
 
+- [Sliding Window Problems](#sliding-window-problems)
+  
+
 - [Sorting and Searching](#sorting-and-searching)
   
 
@@ -968,6 +971,112 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
             </td>
             <td>
                 <a href="https://cses.fi/problemset/task/1749" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+## Sliding Window Problems
+
+<table>
+    <thead>
+        <tr>
+            <th>Problem ID</th>
+            <th>Solution Code</th>
+            <th>Problem Statement</th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr>
+            <td>
+                3219
+            </td>
+            <td>
+                <a href="Sliding%20Window%20Problems/3219%20-%20Sliding%20Window%20Mex.cpp">
+                    💻 Sliding Window Mex
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3219" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3220
+            </td>
+            <td>
+                <a href="Sliding%20Window%20Problems/3220%20-%20Sliding%20Window%20Sum.cpp">
+                    💻 Sliding Window Sum
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3220" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3221
+            </td>
+            <td>
+                <a href="Sliding%20Window%20Problems/3221%20-%20Sliding%20Window%20Minimum.cpp">
+                    💻 Sliding Window Minimum
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3221" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3222
+            </td>
+            <td>
+                <a href="Sliding%20Window%20Problems/3222%20-%20Sliding%20Window%20Distinct%20Values.cpp">
+                    💻 Sliding Window Distinct Values
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3222" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3224
+            </td>
+            <td>
+                <a href="Sliding%20Window%20Problems/3224%20-%20Sliding%20Window%20Mode.cpp">
+                    💻 Sliding Window Mode
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3224" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3426
+            </td>
+            <td>
+                <a href="Sliding%20Window%20Problems/3426%20-%20Sliding%20Window%20Xor.cpp">
+                    💻 Sliding Window Xor
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3426" target="_blank">
                     📜 Statement
                 </a>
             </td>
