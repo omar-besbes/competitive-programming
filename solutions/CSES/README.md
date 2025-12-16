@@ -540,6 +540,36 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
         </tr>
         <tr>
             <td>
+                1070
+            </td>
+            <td>
+                <a href="Introductory%20Problems/1070%20-%20Permutations.cpp">
+                    💻 Permutations
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/1070" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1071
+            </td>
+            <td>
+                <a href="Introductory%20Problems/1071%20-%20Number%20Spiral.cpp">
+                    💻 Number Spiral
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/1071" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 1072
             </td>
             <td>
@@ -645,6 +675,51 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
         </tr>
         <tr>
             <td>
+                1622
+            </td>
+            <td>
+                <a href="Introductory%20Problems/1622%20-%20Creating%20Strings.cpp">
+                    💻 Creating Strings
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/1622" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1623
+            </td>
+            <td>
+                <a href="Introductory%20Problems/1623%20-%20Apple%20Division.cpp">
+                    💻 Apple Division
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/1623" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1624
+            </td>
+            <td>
+                <a href="Introductory%20Problems/1624%20-%20Chessboard%20and%20Queens.cpp">
+                    💻 Chessboard and Queens
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/1624" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 1754
             </td>
             <td>
@@ -675,6 +750,21 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
         </tr>
         <tr>
             <td>
+                2165
+            </td>
+            <td>
+                <a href="Introductory%20Problems/2165%20-%20Tower%20of%20Hanoi.cpp">
+                    💻 Tower of Hanoi
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/2165" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 2205
             </td>
             <td>
@@ -699,6 +789,21 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
             </td>
             <td>
                 <a href="https://cses.fi/problemset/task/2431" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3217
+            </td>
+            <td>
+                <a href="Introductory%20Problems/3217%20-%20Knight%20Moves%20Grid.cpp">
+                    💻 Knight Moves Grid
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3217" target="_blank">
                     📜 Statement
                 </a>
             </td>
