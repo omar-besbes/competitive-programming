@@ -18,6 +18,9 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
 - [Graph Algorithms](#graph-algorithms)
   
 
+- [Interactive Problems](#interactive-problems)
+  
+
 - [Introductory Problems](#introductory-problems)
   
 
@@ -503,6 +506,52 @@ Accepted solutions of [CSES problemset](https://cses.fi/problemset).
             </td>
             <td>
                 <a href="https://cses.fi/problemset/task/1672" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+## Interactive Problems
+
+<table>
+    <thead>
+        <tr>
+            <th>Problem ID</th>
+            <th>Solution Code</th>
+            <th>Problem Statement</th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr>
+            <td>
+                3112
+            </td>
+            <td>
+                <a href="Interactive%20Problems/3112%20-%20Hidden%20Integer.cpp">
+                    💻 Hidden Integer
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3112" target="_blank">
+                    📜 Statement
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3139
+            </td>
+            <td>
+                <a href="Interactive%20Problems/3139%20-%20Hidden%20Permutation.cpp">
+                    💻 Hidden Permutation
+                </a>
+            </td>
+            <td>
+                <a href="https://cses.fi/problemset/task/3139" target="_blank">
                     📜 Statement
                 </a>
             </td>
